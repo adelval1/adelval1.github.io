@@ -361,7 +361,7 @@
 				@include vendor('flex-direction', 'column');
 				@include vendor('justify-content', 'center');
 				@include vendor('pointer-events', 'none');
-				@include vendor('transition', 'opacity #{_duration(transition)} ease-in-out');
+				///@include vendor('transition', 'opacity #{_duration(transition)} ease-in-out');
 				position: absolute;
 				top: 0;
 				left: 0;
